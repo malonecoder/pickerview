@@ -1,3 +1,4 @@
+[![](https://jitpack.io/v/malonecoder/pickerview.svg)](https://jitpack.io/#malonecoder/pickerview)
 # One very very user-friendly Picker library
 一个非常好用的Android PickerView库，内部提供2种常用类型的Picker。支持扩展自定义Picker。支持自定义弹窗。支持作为view的非弹窗场景。
 * TimePicker：时间选择器，支持聚合模式（合并v1.x的MixedTimePicker），支持12小时制（上下午）。
@@ -357,7 +358,7 @@ public class MyApplication extends Application {
 
 ## Gradle
 ```java
-    compile 'org.jaaksi:pickerview:3.0.1'
+    implementation 'com.github.malonecoder:pickerview:3.0.2'
 ```
 
 ## Thanks
